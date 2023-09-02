@@ -1,0 +1,5 @@
+.env
+.*.env
+.*.env.bat
+var
+__pycache__

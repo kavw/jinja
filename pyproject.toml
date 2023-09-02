@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "kavw_cli_jinja"
+version = "1.0.0"
+description = "The CLI wrap around the Jinja2"
+authors = ["Anton Kurnosov <kavww@proton.me>"]
+license = "BSD 3-Clause"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Jinja2 = "^3.1.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+pyright = "^1.1.326"
+ruff = "^0.0.289"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
